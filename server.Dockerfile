@@ -4,4 +4,4 @@ WORKDIR /app
 
 COPY . /app
 
-ENTRYPOINT [ "python", "-m", "http.server", "$PORT" ]
+ENTRYPOINT [ "python", "-m", "http.server", "8080" ]
