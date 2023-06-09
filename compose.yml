@@ -1,0 +1,12 @@
+version: '3'
+services:
+  server:
+    build:
+      context: .
+      dockerfile: server.Dockerfile
+  fetcher: 
+    build:
+      context: .
+      dockerfile: fetcher.Dockerfile
+    
+
